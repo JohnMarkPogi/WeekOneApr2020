@@ -3,12 +3,6 @@ import tkinter as tk
 import tkinter.messagebox
 import turtle
 
-"""print(calendar.weekheader(1))
-print(calendar.firstweekday())
-print(calendar.month(2020, 4))
-print(calendar.monthcalendar(2020, 4))
-print(calendar.calendar(2020))"""
-
 
 root = tk.Tk()
 usr_turtle = turtle.Turtle()
@@ -114,7 +108,6 @@ btn_sep = tk.Button(root, width=20, height=10, text=c.month(2020, 9), command= l
 btn_oct = tk.Button(root, width=20, height=10, text=c.month(2020, 10), command= lambda: btn_click("oct"))
 btn_nov = tk.Button(root, width=20, height=10, text=c.month(2020, 11), command= lambda: btn_click("nov"))
 btn_dec = tk.Button(root, width=20, height=10, text=c.month(2020, 12), command= lambda: btn_click("dec"))
-
 
 
 
